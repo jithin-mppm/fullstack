@@ -1,0 +1,57 @@
+package com.example.reactmongo.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "student")
+public class Student {
+	
+	@Id
+	private Long id;
+	
+	private String Name;
+	private String Dob;
+	private String Std;
+	private String Division;
+	private String Gender;
+
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public String getDob() {
+		return Dob;
+	}
+	public void setDob(String dob) {
+		Dob = dob;
+	}
+	public String getDivision() {
+		return Division;
+	}
+	public void setDivision(String division) {
+		Division = division;
+	}
+	public String getGender() {
+		return Gender;
+	}
+	public void setGender(String gender) {
+		Gender = gender;
+	}
+	public String getStd() {
+		return Std;
+	}
+	public void setStd(String std) {
+		Std = std;
+	}
+	
+	
+}

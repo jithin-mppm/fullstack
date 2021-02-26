@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.example.reactmongo.model.Student.Std&apos; in &apos;com.example.reactmongo.model.Student&apos;&#x0D;&#x0A;- Original project: &apos;react-mongo&apos;&#x0D;&#x0A;- Original element: &apos;com.example.reactmongo.model.Student.Std&apos;&#x0D;&#x0A;- Getter method name: &apos;getStd&apos;&#x0D;&#x0A;- Setter method name: &apos;setStd&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;Std&apos;" flags="589830" getter="getStd" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.reactmongo.model{Student.java[Student^Std" insertion="9" setter="setStd" stamp="1613994183219" version="1.0" visibility="1"/>
+</session>

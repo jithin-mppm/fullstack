@@ -1,0 +1,11 @@
+package com.example.reactmongo.dao;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.reactmongo.model.Student;
+
+public interface StudentDao extends MongoRepository<Student, Long> {
+	List<Student> findbyname(String name);
+}
