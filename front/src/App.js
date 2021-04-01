@@ -37,7 +37,6 @@ class App extends Component {
     e.preventDefault();
 
     axios.post("http://localhost:8080/api/student",{
-      id:id,
       studname:this.state.studname,
       dob:this.state.dob,
       std:this.state.std,
