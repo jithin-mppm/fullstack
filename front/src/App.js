@@ -21,13 +21,7 @@ class App extends Component {
   componentDidMount(){
     axios.get("http://localhost:8080/api/student").then((res) =>{
       this.setState({
-        stud:res.data,
-        id:"",
-        studname:"",
-        dob:"",
-        std:"",
-        div:"",
-        gender:""
+        stud:res.data
       })
     })
   }
